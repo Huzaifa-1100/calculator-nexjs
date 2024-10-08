@@ -46,7 +46,7 @@ export default function Calculator() {
     if (parseFloat(num2) !== 0) {
       setResult((parseFloat(num1) / parseFloat(num2)).toString());
     } else {
-      setResult(`${"Error: Division by zero"}`);
+      setResult("sError: Division by zero");
     }
   };
   // Function to clear all inputs and reset the result
